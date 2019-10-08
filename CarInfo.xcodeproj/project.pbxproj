@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		064AFF86234B4BBB00592077 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064AFF85234B4BBB00592077 /* Car.swift */; };
 		064AFF88234B4BC800592077 /* CarDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064AFF87234B4BC800592077 /* CarDirectory.swift */; };
+		064AFF8A234B65D200592077 /* CarDirectoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064AFF89234B65D200592077 /* CarDirectoryTableViewCell.swift */; };
+		064AFF8C234BB30A00592077 /* EditDirectoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064AFF8B234BB30A00592077 /* EditDirectoryViewController.swift */; };
+		064AFF8E234BC10B00592077 /* ForStringTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064AFF8D234BC10B00592077 /* ForStringTableViewCell.swift */; };
+		064AFF90234BC2BC00592077 /* ForPickerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064AFF8F234BC2BC00592077 /* ForPickerTableViewCell.swift */; };
 		067FC62C234B4A5600EA1EBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067FC62B234B4A5600EA1EBF /* AppDelegate.swift */; };
 		067FC62E234B4A5600EA1EBF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067FC62D234B4A5600EA1EBF /* SceneDelegate.swift */; };
 		067FC630234B4A5600EA1EBF /* CarDirectoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067FC62F234B4A5600EA1EBF /* CarDirectoryViewController.swift */; };
@@ -20,6 +24,10 @@
 /* Begin PBXFileReference section */
 		064AFF85234B4BBB00592077 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 		064AFF87234B4BC800592077 /* CarDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDirectory.swift; sourceTree = "<group>"; };
+		064AFF89234B65D200592077 /* CarDirectoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDirectoryTableViewCell.swift; sourceTree = "<group>"; };
+		064AFF8B234BB30A00592077 /* EditDirectoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditDirectoryViewController.swift; sourceTree = "<group>"; };
+		064AFF8D234BC10B00592077 /* ForStringTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForStringTableViewCell.swift; sourceTree = "<group>"; };
+		064AFF8F234BC2BC00592077 /* ForPickerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForPickerTableViewCell.swift; sourceTree = "<group>"; };
 		067FC628234B4A5600EA1EBF /* CarInfo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarInfo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		067FC62B234B4A5600EA1EBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		067FC62D234B4A5600EA1EBF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,12 +66,14 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		064AFF84234B4B6800592077 /* Comtroller */ = {
+		064AFF84234B4B6800592077 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				06D90C3E234BD67900891827 /* Cells */,
 				067FC62F234B4A5600EA1EBF /* CarDirectoryViewController.swift */,
+				064AFF8B234BB30A00592077 /* EditDirectoryViewController.swift */,
 			);
-			path = Comtroller;
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		067FC61F234B4A5600EA1EBF = {
@@ -89,12 +99,22 @@
 				067FC62D234B4A5600EA1EBF /* SceneDelegate.swift */,
 				064AFF82234B4B5A00592077 /* Model */,
 				064AFF83234B4B6300592077 /* View */,
-				064AFF84234B4B6800592077 /* Comtroller */,
+				064AFF84234B4B6800592077 /* Controller */,
 				067FC634234B4A5700EA1EBF /* Assets.xcassets */,
 				067FC636234B4A5700EA1EBF /* LaunchScreen.storyboard */,
 				067FC639234B4A5700EA1EBF /* Info.plist */,
 			);
 			path = CarInfo;
+			sourceTree = "<group>";
+		};
+		06D90C3E234BD67900891827 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				064AFF8D234BC10B00592077 /* ForStringTableViewCell.swift */,
+				064AFF8F234BC2BC00592077 /* ForPickerTableViewCell.swift */,
+				064AFF89234B65D200592077 /* CarDirectoryTableViewCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,11 +188,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				064AFF8E234BC10B00592077 /* ForStringTableViewCell.swift in Sources */,
 				064AFF88234B4BC800592077 /* CarDirectory.swift in Sources */,
 				067FC630234B4A5600EA1EBF /* CarDirectoryViewController.swift in Sources */,
 				067FC62C234B4A5600EA1EBF /* AppDelegate.swift in Sources */,
 				064AFF86234B4BBB00592077 /* Car.swift in Sources */,
+				064AFF8A234B65D200592077 /* CarDirectoryTableViewCell.swift in Sources */,
+				064AFF90234BC2BC00592077 /* ForPickerTableViewCell.swift in Sources */,
 				067FC62E234B4A5600EA1EBF /* SceneDelegate.swift in Sources */,
+				064AFF8C234BB30A00592077 /* EditDirectoryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,6 +341,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JJLJJKU7AK;
 				INFOPLIST_FILE = CarInfo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -334,6 +359,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JJLJJKU7AK;
 				INFOPLIST_FILE = CarInfo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

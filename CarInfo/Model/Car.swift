@@ -8,8 +8,9 @@
 
 import Foundation
 
-enum BodyType {
+enum BodyType: CaseIterable {
     case Sedan, Hatchback, Wagon, Liftback, Coupe, Convertible, Roadster, Stretch, Targa, SUV, Crossover, Pickup, Van, Minivan
+    case notIndicated
 }
 
 struct Car {

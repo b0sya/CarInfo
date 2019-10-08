@@ -16,13 +16,13 @@ class CarDirectory {
         self.cars = cars
     }
     
-    func add(newCar: Car) {
+    func add(newCar: Car, at index: Int) {
         for car in cars {
             if car.manufacturer == newCar.manufacturer && car.model == newCar.model && car.yearOfIssue == newCar.yearOfIssue && car.body == newCar.body { //TODO: Упростить
                 return
             }
         }
-        cars.insert(newCar, at: 0)
+        cars.insert(newCar, at: index)
     }
     
     func printDirectory() {
