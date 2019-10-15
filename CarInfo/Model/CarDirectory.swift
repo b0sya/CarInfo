@@ -61,7 +61,7 @@ class CarDirectory {
 
     }
     
-    func saveToDataBase(){
+    private func saveToDataBase(){
         do{
             try context.save()
             print("Changes saved!")
