@@ -8,14 +8,18 @@
 
 import Foundation
 
-enum BodyType: CaseIterable {
-    case Sedan, Hatchback, Wagon, Liftback, Coupe, Convertible, Roadster, Stretch, Targa, SUV, Crossover, Pickup, Van, Minivan
-    case notIndicated
-}
-
 struct Car {
-    let yearOfIssue: Int
-    let manufacturer: String
+    let uuid: String
+    let yearOfIssue: String
+    let brand: String
     let model: String
     let body: BodyType
+    
+    init(uuid: String = UUID().uuidString, year: String, brand: String, model: String, body: BodyType) {
+        self.uuid = uuid
+        self.yearOfIssue = year
+        self.brand = brand
+        self.model = model
+        self.body = body
+    }
 }

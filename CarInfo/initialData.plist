@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>brand</key>
+		<string>Nissan</string>
+		<key>model</key>
+		<string>Skyline R33 GT-R</string>
+		<key>body</key>
+		<string>Coupe</string>
+		<key>yearOfIssue</key>
+		<string>1993</string>
+	</dict>
+	<dict>
+		<key>brand</key>
+		<string>BMW</string>
+		<key>model</key>
+		<string>X3</string>
+		<key>body</key>
+		<string>SUV</string>
+		<key>yearOfIssue</key>
+		<string>2019</string>
+	</dict>
+	<dict>
+		<key>brand</key>
+		<string>Opel</string>
+		<key>model</key>
+		<string>Astra</string>
+		<key>body</key>
+		<string>Sedan</string>
+		<key>yearOfIssue</key>
+		<string>1991</string>
+	</dict>
+</array>
+</plist>

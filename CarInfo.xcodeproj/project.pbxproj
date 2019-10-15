@@ -10,24 +10,24 @@
 		064AFF86234B4BBB00592077 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064AFF85234B4BBB00592077 /* Car.swift */; };
 		064AFF88234B4BC800592077 /* CarDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064AFF87234B4BC800592077 /* CarDirectory.swift */; };
 		064AFF8A234B65D200592077 /* CarDirectoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064AFF89234B65D200592077 /* CarDirectoryTableViewCell.swift */; };
-		064AFF8C234BB30A00592077 /* EditDirectoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064AFF8B234BB30A00592077 /* EditDirectoryViewController.swift */; };
-		064AFF8E234BC10B00592077 /* ForStringTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064AFF8D234BC10B00592077 /* ForStringTableViewCell.swift */; };
-		064AFF90234BC2BC00592077 /* ForPickerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064AFF8F234BC2BC00592077 /* ForPickerTableViewCell.swift */; };
 		067FC62C234B4A5600EA1EBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067FC62B234B4A5600EA1EBF /* AppDelegate.swift */; };
 		067FC62E234B4A5600EA1EBF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067FC62D234B4A5600EA1EBF /* SceneDelegate.swift */; };
 		067FC630234B4A5600EA1EBF /* CarDirectoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067FC62F234B4A5600EA1EBF /* CarDirectoryViewController.swift */; };
 		067FC633234B4A5600EA1EBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 067FC631234B4A5600EA1EBF /* Main.storyboard */; };
 		067FC635234B4A5700EA1EBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 067FC634234B4A5700EA1EBF /* Assets.xcassets */; };
 		067FC638234B4A5700EA1EBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 067FC636234B4A5700EA1EBF /* LaunchScreen.storyboard */; };
+		4B287DEB23563C4B00284DB9 /* BodyType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B287DEA23563C4B00284DB9 /* BodyType.swift */; };
+		4B287DED23563C5D00284DB9 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B287DEC23563C5D00284DB9 /* AddViewController.swift */; };
+		4B287DEF23563C8E00284DB9 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B287DEE23563C8E00284DB9 /* Date.swift */; };
+		4B287DF523563D0A00284DB9 /* YearPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B287DF423563D0A00284DB9 /* YearPickerView.swift */; };
+		4B287DF823563D2800284DB9 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4B287DF623563D2800284DB9 /* Model.xcdatamodeld */; };
+		4B287DFA23563D3A00284DB9 /* initialData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4B287DF923563D3A00284DB9 /* initialData.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		064AFF85234B4BBB00592077 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 		064AFF87234B4BC800592077 /* CarDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDirectory.swift; sourceTree = "<group>"; };
 		064AFF89234B65D200592077 /* CarDirectoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDirectoryTableViewCell.swift; sourceTree = "<group>"; };
-		064AFF8B234BB30A00592077 /* EditDirectoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditDirectoryViewController.swift; sourceTree = "<group>"; };
-		064AFF8D234BC10B00592077 /* ForStringTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForStringTableViewCell.swift; sourceTree = "<group>"; };
-		064AFF8F234BC2BC00592077 /* ForPickerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForPickerTableViewCell.swift; sourceTree = "<group>"; };
 		067FC628234B4A5600EA1EBF /* CarInfo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarInfo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		067FC62B234B4A5600EA1EBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		067FC62D234B4A5600EA1EBF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +36,12 @@
 		067FC634234B4A5700EA1EBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		067FC637234B4A5700EA1EBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		067FC639234B4A5700EA1EBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B287DEA23563C4B00284DB9 /* BodyType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BodyType.swift; sourceTree = "<group>"; };
+		4B287DEC23563C5D00284DB9 /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		4B287DEE23563C8E00284DB9 /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		4B287DF423563D0A00284DB9 /* YearPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YearPickerView.swift; sourceTree = "<group>"; };
+		4B287DF723563D2800284DB9 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		4B287DF923563D3A00284DB9 /* initialData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = initialData.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +58,7 @@
 		064AFF82234B4B5A00592077 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				4B287DEA23563C4B00284DB9 /* BodyType.swift */,
 				064AFF85234B4BBB00592077 /* Car.swift */,
 				064AFF87234B4BC800592077 /* CarDirectory.swift */,
 			);
@@ -71,7 +78,7 @@
 			children = (
 				06D90C3E234BD67900891827 /* Cells */,
 				067FC62F234B4A5600EA1EBF /* CarDirectoryViewController.swift */,
-				064AFF8B234BB30A00592077 /* EditDirectoryViewController.swift */,
+				4B287DEC23563C5D00284DB9 /* AddViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -97,12 +104,16 @@
 			children = (
 				067FC62B234B4A5600EA1EBF /* AppDelegate.swift */,
 				067FC62D234B4A5600EA1EBF /* SceneDelegate.swift */,
+				4B287DF123563CCA00284DB9 /* Custom */,
+				4B287DF023563C9200284DB9 /* Extensions */,
 				064AFF82234B4B5A00592077 /* Model */,
 				064AFF83234B4B6300592077 /* View */,
 				064AFF84234B4B6800592077 /* Controller */,
 				067FC634234B4A5700EA1EBF /* Assets.xcassets */,
 				067FC636234B4A5700EA1EBF /* LaunchScreen.storyboard */,
+				4B287DF923563D3A00284DB9 /* initialData.plist */,
 				067FC639234B4A5700EA1EBF /* Info.plist */,
+				4B287DF623563D2800284DB9 /* Model.xcdatamodeld */,
 			);
 			path = CarInfo;
 			sourceTree = "<group>";
@@ -110,11 +121,25 @@
 		06D90C3E234BD67900891827 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				064AFF8D234BC10B00592077 /* ForStringTableViewCell.swift */,
-				064AFF8F234BC2BC00592077 /* ForPickerTableViewCell.swift */,
 				064AFF89234B65D200592077 /* CarDirectoryTableViewCell.swift */,
 			);
 			path = Cells;
+			sourceTree = "<group>";
+		};
+		4B287DF023563C9200284DB9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4B287DEE23563C8E00284DB9 /* Date.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4B287DF123563CCA00284DB9 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				4B287DF423563D0A00284DB9 /* YearPickerView.swift */,
+			);
+			path = Custom;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,6 +203,7 @@
 				067FC638234B4A5700EA1EBF /* LaunchScreen.storyboard in Resources */,
 				067FC635234B4A5700EA1EBF /* Assets.xcassets in Resources */,
 				067FC633234B4A5600EA1EBF /* Main.storyboard in Resources */,
+				4B287DFA23563D3A00284DB9 /* initialData.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,15 +214,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				064AFF8E234BC10B00592077 /* ForStringTableViewCell.swift in Sources */,
+				4B287DEB23563C4B00284DB9 /* BodyType.swift in Sources */,
 				064AFF88234B4BC800592077 /* CarDirectory.swift in Sources */,
+				4B287DED23563C5D00284DB9 /* AddViewController.swift in Sources */,
 				067FC630234B4A5600EA1EBF /* CarDirectoryViewController.swift in Sources */,
 				067FC62C234B4A5600EA1EBF /* AppDelegate.swift in Sources */,
+				4B287DF523563D0A00284DB9 /* YearPickerView.swift in Sources */,
 				064AFF86234B4BBB00592077 /* Car.swift in Sources */,
 				064AFF8A234B65D200592077 /* CarDirectoryTableViewCell.swift in Sources */,
-				064AFF90234BC2BC00592077 /* ForPickerTableViewCell.swift in Sources */,
+				4B287DEF23563C8E00284DB9 /* Date.swift in Sources */,
+				4B287DF823563D2800284DB9 /* Model.xcdatamodeld in Sources */,
 				067FC62E234B4A5600EA1EBF /* SceneDelegate.swift in Sources */,
-				064AFF8C234BB30A00592077 /* EditDirectoryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,6 +422,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4B287DF623563D2800284DB9 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4B287DF723563D2800284DB9 /* Model.xcdatamodel */,
+			);
+			currentVersion = 4B287DF723563D2800284DB9 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 067FC620234B4A5600EA1EBF /* Project object */;
 }
